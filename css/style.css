@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "bootstrap-icons";
+  src: url("../fonts/bootstrap-icons.woff"),
+    url("../fonts/bootstrap-icons.woff2");
+}
+*,
+::after
+::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/970e664f-2df4-47ce-b4fa-446082f5abc1/24b89ef5-bfb1-4dd0-b4a1-1633e1caf195/MA-fr-20220523-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+background-size: cover;
+}
+
+.image1 {
+  color: red;
+}
+.btn {
+  background: none;
+  color: azure;
+  margin-left: 25px;
+}
+/* .dropdown {
+  margin-left: 800px;
+} */
+
+.titles {
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+  max-width: auto;
+}
+.titre {
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 800px;
+  margin: auto;
+}
+.parag1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.parag2 {
+  font-size: 20px;
+  font-weight: 600;
+  width: 850px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.mail {
+  background-color: white;
+  height: 70px;
+  width: 500px;
+  color: grey !important;
+  text-align: left;
+  text-indent: 10px !important;
+  margin-right: 0;
+  border-bottom: 10px, solide, orangered;
+}
+.champMail {
+  width: 850px;
+  margin: auto;
+}
+.btn-danger {
+  height: 70px;
+  width: 300px;
+  background-color: red;
+  margin-left: 0;
+  font-weight: 600 !important;
+  font-size: 20px !important ;
+}
+
+.textchamp {
+  margin-left: 250px !important;
+  color: orange;
+  padding-bottom: 50px !important;
+}
+.container{
+  width: 100%;
+  margin: auto;
+}
+.section1{
+  border-bottom-style: solid;
+  border-bottom-width: 20px;
+  border-bottom-color:white;
+  padding-bottom: 20px;
+}
+.row1 {
+  color: white !important;
+ 
+}
+.titre2 {
+  font-size: 60px !important;
+  font-weight: 700 !important;
+  line-height: 50px;
+}
+.titre3 {
+  font-size: 30px !important;
+  font-weight: 500 !important;
+  line-height: 50px;
+}
+.accord {
+  background-color: rgb(29, 29, 29);
+}
+.video1{
+  position: relative !important;;
+  width: 400px !important; 
+height: 500px !important ;
+}
+.videoabs{
+  position: absolute !important;
+  top:100px !important;
+  left: 80px !important;
+  width: 200px !important;
+  height: 300px !important;
+}
